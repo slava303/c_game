@@ -5,9 +5,9 @@
 #include <string>
 #include <iostream>
 
-class Archer : public Hero {
+class Wizard : public Hero {
 public:
-    Archer( std::string nam, int atta,int max_hel);
+    Wizard( std::string nam, int atta,int max_hel);
    inline void get_info();
    
 };
